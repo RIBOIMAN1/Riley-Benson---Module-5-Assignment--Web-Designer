@@ -1,0 +1,47 @@
+.external-css {
+    color: darkcyan;
+    background-color: purple;
+}
+
+body, h1, h2, p, ul, li, a {
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif, "Ubuntu", Arial, Helvetica
+}
+
+body {
+    background-color: rgb(0,0,40);
+}
+
+h1 {
+    color: darkcyan;
+    font-size: 2em;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: 2em;
+    color: lightpink;
+}
+
+p {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin-bottom: 12px;
+}
+
+p a {
+    color: #f39c12;
+    text-decoration: none;
+}
+ul {
+    list-style-type: none;
+    margin-left: 20px;
+    margin-bottom: 12px;
+}
+
+ul li {
+    margin-bottom: 5px; /* Adding some space below each list item */
+    color: #7f8c8d; /* Grayish-blue text color */
+}
+
