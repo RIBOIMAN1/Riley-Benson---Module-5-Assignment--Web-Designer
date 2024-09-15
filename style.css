@@ -140,3 +140,17 @@ button:hover {
 .VideoBorder {
     border: 3px solid red;
 }
+
+.BorderedTextRounded {
+    border: 10px solid red;
+    border-radius: 50%;
+}
+
+.TableDesign {
+    border: 5px solid red;
+    color: greenyellow;
+    width: 100%;
+    text-align: center;      
+    font-size: 1em;
+    margin-bottom: 1em;
+}
