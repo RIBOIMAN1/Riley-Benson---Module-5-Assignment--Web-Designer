@@ -14,14 +14,15 @@ body {
 }
 
 h1 {
-    color: darkcyan;
+    color: cyan;
     font-size: 2em;
-    margin-bottom: 1em;
+    margin-bottom: 0.5em;
 }
 
 h2 {
-    font-size: 2em;
-    color: lightpink;
+    color: plum;
+    font-size: 1.5em;
+    margin-bottom: 1em;
 }
 
 p {
@@ -41,7 +42,101 @@ ul {
 }
 
 ul li {
-    margin-bottom: 5px; /* Adding some space below each list item */
-    color: #7f8c8d; /* Grayish-blue text color */
+    margin-bottom: 5px;
+    color: #7f8c8d;
 }
 
+div ul {
+    list-style-type: square;
+}
+
+.feature-card {
+    border: 2px solid #7f8c8d;
+    padding: 20px;
+    margin: 20px;
+    background-color: #f9f9f9;
+}
+
+.feature-card h3 {
+    font-size: 20px;
+    margin-bottom: 10px;
+    color: #2c3e50;
+}
+
+.feature-card p {
+    margin-bottom: 10px;
+    color: #7f8c8d;
+}
+
+#special-feature {
+    background-color: #fde3a7;
+    border-color: #f39c12;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    display: inline-block;
+    color: goldenrod;
+    text-decoration: none;
+    padding: 5px 10px;
+    border: 3px solid #00FFFF;
+    transition: all 0.3s ease;
+}
+
+a:hover {
+    background-color: green;
+    color: white;
+    border: 3px solid yellow;
+}
+
+button {
+    padding: 5px 10px;
+    border: none;
+    background-color: #ecf0f1;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.center-text {
+    text-align: center;
+}
+
+.center-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.img30 {
+    height: auto;
+    width: 30%;
+}
+.img40 {
+    height: auto;
+    width: 40%;
+}
+.img49_5 {
+    height: auto;
+    width: 49.5%;
+}
+.img50 {
+    height: auto;
+    width: 50%;
+}
+
+.img50Poster {
+    height: auto;
+    width: 50%;
+}
+
+.ImageBackground {
+    background-color: darkcyan;
+}
+
+.VideoBorder {
+    border: 3px solid red;
+}
