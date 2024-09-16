@@ -167,3 +167,8 @@ button:hover {
     content: "\A";
     white-space: pre;
 }
+
+#footer {
+    color: lightpink;
+    font-weight: bold;
+}
